@@ -20,6 +20,15 @@ body {
     font-family: 'Poppins', sans-serif;
 
   }
+  
+
+
+
+
+
+
+
+
   /* TOP BANNER */
   .top-banner {
     width: 100%;
@@ -175,6 +184,7 @@ body {
 #food{
   background-color: #FFD5DF;
 }
+
 #shelter{
   background-color: #D6FFD5;
 }
@@ -182,3 +192,109 @@ body {
   background-color: #FFE7D5;
 }
 /* Donation Plan */
+
+
+
+
+
+
+
+
+
+
+
+/* BLOG */
+/* BLOG */
+.blog{
+  margin-top:100px;
+  text-align:left;
+}
+
+
+.blog-one{
+  display:flex;
+  padding: 50px 15px;
+  border:3px solid #FFB954;
+  margin: 50px ;
+  border-radius:5px;   
+}
+.blog-one-left{
+  width: 30%;
+  margin-right: 6px;
+/*   border:1px solid gray;
+ */
+}
+.blog-one-right{
+  width:70%;
+/*   border:1px solid gray; */
+}
+
+.blog-two{
+ display:flex;
+ padding: 50px 15px;
+ border:3px solid #FFB954;
+ margin: 5px;
+ border-radius:5px;
+ margin:50px;
+}
+.blog-two-left{
+  width:30%;
+  margin-right:6px;
+/*   border: 1px solid gray; */
+}
+.blog-two-right{
+  width:70%;
+/*   border:1px solid gray; */
+}
+.blog-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 15px;
+  box-shadow:0 0 20px 4px rgb(105, 105, 105);
+}
+
+
+/* Section 4 */
+
+.update{
+  text-align:center;
+  margin-top:100px;
+}
+.update-input-field{
+  background-color:#FFDFB0;
+  margin: 50px 300px;
+  padding: 40px 80px;
+}
+
+
+#inp-text{
+  padding:10px 50px;
+  border:1px;
+  border-radius:5px;
+   box-shadow:0 0 20px 4px rgba(0,0,0,0.16);
+
+}
+#update-submit{
+  padding:10px 20px;
+  border:1px;
+  background-color:#FF5959;
+  box-shadow:0 0 20px 4px rgba(0,0,0,0.16);
+  border-radius:5px;
+}
+
+
+.footer{
+  background:black;
+  text-align:center;
+  margin-top:100px;
+  padding: 60px 0px;
+}
+.footer h1{
+  font-size: 50px;
+  color:#FC4444;
+}
+#copyright{
+  color:white;
+}
